@@ -1,5 +1,6 @@
 import Passage from '@passageidentity/passage-node'
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next'
+import Link from 'next/link'
 
 const Dashboard = ({
   isAuthorized,
@@ -18,9 +19,9 @@ const Dashboard = ({
       You have not logged in and cannot view the dashboard.
       <br />
       <br />
-      <a href='/' className='ml-5 text-white underline decoration-white'>
+      <Link href='/' className='ml-5 text-white underline decoration-white'>
         Login to continue.
-      </a>
+      </Link>
     </>
   )
 
