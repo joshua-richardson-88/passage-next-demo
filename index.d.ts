@@ -6,7 +6,7 @@ declare global {
       'passage-auth': PassageElement
       'passage-login': PassageElement
       'passage-register': PassageElement
-      'passage-profile': HTMLElement
+      'passage-profile': PassageElement
     }
   }
 }

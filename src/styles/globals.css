@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 passage-auth {
+  --passage-primary-color: #314ad8;
+  --passage-header-text-color: #eee;
   --passage-body-text-color: #eee;
   --app-text: #000;
 }

@@ -22,7 +22,7 @@ const Home: NextPage = ({
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='bg-neutral-800 container mx-auto flex flex-col min-h-screen p-4'>
+      <main className='w-screen h-screen overscroll-none bg-neutral-800 text-white'>
         <Banner />
         {appId.length != null && <passage-auth app-id={appId} />}
       </main>
