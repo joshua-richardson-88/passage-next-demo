@@ -25,8 +25,7 @@ const Profile: React.FC<{ appID: string; logout: () => void }> = ({
       logout()
       Router.push('/')
     }
-  }, [error])
-  useEffect(() => user != null && console.log(user), [user])
+  }, [error, logout])
 
   if (isLoading) return <div />
   return <passage-profile app-id={appID} />
