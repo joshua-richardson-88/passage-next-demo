@@ -20,6 +20,8 @@ export const createContext = (opts?: trpcNext.CreateNextContextOptions) => {
     res,
     passage,
     prisma,
+    isAuthenticated: false,
+    id: '',
   }
 }
 
